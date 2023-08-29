@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+/* <-----------------------------------------> */
+:root {
+    --color-primary: #0073ff;
+    --color-white: #e9e9e9;
+    --color-black: #141d28;
+    --color-black-1: #212b38;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+   
+  }
+  
+  .logo {
+    color: var(--color-white);
+    font-size: 30px;
+  }
+  
+  .logo span {
+    color: red;
+  }
+  
+  .menu-bar {
+    background-color: var(--color-black);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+    position: fixed;
+  }
+  
+  .menu-bar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu-bar ul li {
+    padding: 10px 30px;
+    position: relative;
+  }
+  
+  .menu-bar ul li a {
+    font-size: 20px;
+    color: var(--color-white);
+    text-decoration: none;
+  
+    transition: all 0.3s;
+  }
+  
+  .menu-bar ul li a:hover {
+    color: var(--color-primary);
+  }
+  
+  .fas {
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+  }
+  
+  .dropdown-menu {
+    display: none;
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: var(--color-black);
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu ul {
+    display: block;
+    margin: 10px;
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu ul li {
+    width: 150px;
+    padding: 10px;
+  }
+  
+  .dropdown-menu-1 {
+    display: none;
+  }
+  
+  .dropdown-menu ul li:hover .dropdown-menu-1 {
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    background-color: var(--color-black);
+  }
+  /* <----------------------------------------------------------------------> */
+.logo {
+    width: 101px;
+    margin-left: 11px;
+}
+
+.uul {
+    margin-top: 21px;
+    display: flex;
+    gap: 51px;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+.btn1 {
+    background-color: red;
+    color: white;
+    list-style-type: none;
+    border-radius: 7px;
+}
+
+.bb {
+    margin-top: 21px;
+}
+
+.header {
+    margin-right: 0;
+    display: flex;
+    gap: 131px;
+    position: fixed;
+}
+
+.lli {
+    text-decoration: none;
+    color: black;
+}
+
+.awe {
+    color: red;
+    width: 201px;
+}
+
+.hh {
+    display: flex;
+}
+
+.write {
+    margin-left: 61px;
+    margin-top: 61px;
+}
+
+.leg {
+    width: 993px;
+    height: 551px;
+    border-radius: 11px;
+}
+
+.legg {
+    margin-top: 61px;
+    border-radius: 11px;
+}
+
+.content {
+    display: flex;
+    gap: 551px;
+    margin-top: 21px;
+}
+
+.log {
+    margin-top: 51px;
+    width: 401px;
+    margin-left: 61px;
+}
+
+.loog {
+    width: 351px;
+    margin-left: 61px;
+}
+
+.looog {
+    display: flex;
+}
+
+.img {
+    margin-top: 51px;
+    border-radius: 11px;
+}
+
+.log1 {
+    margin-top: 51px;
+    margin-bottom: 251px;
+    width: 251px;
+    margin-left: 61px;
+}
+
+.loog1 {
+    margin-bottom: 161px;
+    margin-right: 201px;
+    width: 151px;
+    margin-left: 0;
+}
+
+.img1 {
+    background-color: white;
+}
+
+.awe1 {
+    color: red;
+    width: 201px;
+}
+
+.write1 {
+    display: flex;
+}
+
+.write2 {
+    margin-left: 51px;
+    font-size: 31px;
+}
+
+.range {
+    text-align: center;
+    margin-top: 51px;
+    margin-bottom: 11px;
+}
+
+.dis {
+    margin-left: 11px;
+    transition: transform 450ms;
+}
+
+.dis:hover{
+    transform: scale(1.31);
+}
+
+.name {
+    margin-left: 91px;
+}
+
+.name1 {
+    margin-left: 51px;
+    color: gray;
+}
+
+.cars {
+    display: flex;
+}
+
+.carss {
+    margin-left: 71px;
+    display: flex;
+    gap: 51px;
+}
+
+.More{
+    flex-direction: column;
+    transition: transform 450ms;
+    border-radius: 11px;
+}
+
+.mores {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 51px;
+    gap: 11px;
+    
+}
+
+.More:hover{
+    transform: scale(1.31);
+}
+
+.mores::-webkit-scrollbar {
+    display: none;
+} 
+
+footer{
+    background-color:black;
+    color: white;
+    height:571px;
+    padding: 40px;
+}
+
+.footer{
+    display: flex;
+    padding: 30px;
+}
+
+.flex{
+    display: flex;
+    margin: 50px 50px;
+    gap: 200px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 22px 0;
+}
+
+.bar{
+    color: white;
+}
+
+.logog{
+    position:static;
+}
+
+.llogo{
+    width: 20px;
+}
+
+.glogo{
+    width: 30px;
+}
+
+.fa-whatsapp {
+    display: flex;
+}
+
+.fa-g {
+    display: flex;
+}
+
+.fa-truck {
+    display: flex;
+}
+
+.fa-text-width {
+    width: 210px;
+}
+
+.footer-third {
+    list-style-type: none;
+}
+
+.llii {
+    color: white;
+}
+
+.too {
+    width: 251px;
+    margin-top: 21px;
+}
